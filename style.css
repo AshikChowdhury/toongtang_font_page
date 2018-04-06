@@ -1,0 +1,192 @@
+@font-face{
+	font-family: Noto Sans Bengali;
+	src: url(bootstrap/fonts/Noto Sans Bengali.ttf) format('truetype');
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+    width: 100;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    color: #ffffff;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+
+.menu{
+	background-color: #101013;
+	width:100%;
+	height: auto;
+	/*min-height: 80px;*/
+	padding: 0 10px;
+	margin: 0px;
+	z-index: 1;
+	opacity: 0.9;
+}
+
+.navbar-header > a
+{
+padding: 0px;
+margin: 0px;
+text-decoration: none;
+color: white;
+font-size: 25px;
+padding: 5px 30px;
+}
+
+
+.navbar-tt{
+  background: #101013;
+  margin-bottom: 0;
+}
+
+
+.navbar-tt .navbar-brand{
+  height: 70px;
+  padding: 10px 15px;
+}
+
+.navbar-tt .navbar-nav li a{
+  color:#f2f2f2;
+  line-height: 40px;
+}
+
+.navbar-tt .navbar-nav li a:hover{
+  background: #22232a;
+  color: #fa7271;
+}
+.navbar-tt .navbar-nav li a:focus{
+  background: #22232a;
+  color: #fa7271;
+}
+.navbar-tt .open>a, .navbar-toong .open>a:focus, .navbar-toong .open>a:hover {
+    background-color: #22232a;
+    color: #fa7271;
+
+}
+
+
+.navbar-tt .navbar-toggle{
+  margin-top: 16px;
+}
+
+.navbar-tt .fa-search{
+  color:#797979;
+}
+
+.navbar-tt .navbar-toggle .icon-bar{
+  background: #f2f2f2;
+}
+
+.navbar-form .input-group>.form-control {
+    width: 100%;
+    margin-left: auto
+}
+.navbar-form .input-group {
+    display: inline-table;
+    vertical-align: middle;
+    width: 100%;
+    margin-top: 1%;
+    float:right;
+}
+.navbar-form .input-group>.form-control {
+    background-color: #626572;
+    border-color: #626572;
+}
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    z-index: 2;
+    background-color: #626572;
+    border-color: #626572;
+}
+
+.main_bg{
+	width: 100%;
+	height: 400px;
+	background: url('images/topbanner.jpg') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.main-text{
+  padding-top: 50px;
+  text-align: center;
+}
+.search{
+  background: url('images/search-box.png') no-repeat;
+  display: table;
+  margin: 0 auto;
+  width: 510px;
+  height: 59px;
+}
+
+.search p{
+  font-size: 14px;
+  font-family: "Noto Sans Bengali";
+  color: #626572;
+  text-align: left;
+  padding-left: 14px;
+  padding-top: 20px;
+}
+.button{
+  font-size: 16.667px;
+  background-color: #3b3d47;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.part2{
+  padding-top: 30px;
+  background-color: #f2f2f2;
+  font-size: 16.667px;
+  font-family: "Noto Sans Bengali";
+  height: 475px;
+  line-height: 1.2;
+  text-align: center;
+  color: #3b3d47;
+}
+.part2 a{
+  padding-top: 30px;
+  color: #fa7271;
+  text-decoration: underline;
+  text-align: center;
+}
+.icon{
+  padding-top: 30px;
+}
+.part3{
+  width: 100%;
+  height: 1235px;;
+  background: url('images/part3.png') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.part4{
+  width: 100%;
+  height: 845px;;
+  background: url('images/part4.png') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.Layer_0 {
+  background-image: url("Layer 0.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1600px;
+  height: 2993px;
+  z-index: 1;
+}
